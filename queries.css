@@ -1,0 +1,116 @@
+@media screen and (max-width: 375px) {
+    .navbar {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 10px;
+        height: 40px;
+        width: 60px;
+    }
+
+    .tri-all {
+        display: none;
+    }
+
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .shoe-1 {
+        max-width: 90%;
+        display: block;
+        margin: 1em auto;
+    }
+
+    .box {
+        max-width: 100%;
+        position: static;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .box h1 {
+        font-size: 1.5em;
+        margin-top: .5em;
+    }
+
+    .sneaker {
+        font-size: 1.1em;
+        width: 100%;
+        margin-top: .5em;
+    }
+
+    .nmd {
+        margin-top: 3em;
+        flex-direction: column;
+
+    }
+
+    .nmd img {
+        max-width: 90%;
+    }
+
+    .nmd-text h2 {
+        font-size: 2em;
+        margin-top: .5em;
+    }
+
+    .nmd-text {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nmd-text p {
+        text-align: center;
+        font-size: 1em;
+        line-height: 140%;
+        margin-top: .5em;
+    }
+
+    .nmd-text p:last-child {
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .heritage {
+        width: 70%;
+    }
+    
+
+    .nomadic {
+       font-size: 1em;
+       margin: 0;
+       line-height: 140%;
+       text-align: center;
+       margin-bottom: .5em;
+    }
+
+    .heritage-container {
+        flex-direction: column;
+    }
+
+    .button-share {
+        margin: 2em auto;
+    }
+    
+    footer {
+        flex-direction: column;
+        margin: 2em 0 0 0;
+        padding: 2%;
+        line-height: 140%;
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+
+
+}

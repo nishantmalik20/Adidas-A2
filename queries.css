@@ -1,6 +1,22 @@
 @media screen and (max-width: 375px) {
     .navbar {
-        display: none;
+        display: flex;
+    }
+
+    .navbar li {
+        padding: 0;
+        
+    }
+
+    .navbar a {
+        font-size: .7em;
+        margin-right: .4em;
+        
+    }
+
+    .navbar svg {
+        height: 10px;
+        margin-right: .5em;
     }
 
     header {
